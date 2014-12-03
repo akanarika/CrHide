@@ -8,12 +8,12 @@
   });
 });*/
 function func(){
-	console.log("aaa");
-	document.getElementById("content_right").style.display="none";
+	//document.getElementById("content_right").style.display="none";
+	var element=document.getElementById("content_right");
+	element.innerHTML = "HEHE";
 }
 /*
 window.onload = function(){
 	setInterval(func,1000);
 };*/
-
 setInterval(func,100);
